@@ -116,5 +116,14 @@ Add Collaborstors : setting --> collabotrator --> add people
 
 
 
+================= deploy on github
+github pages ==========> any chanes apply in deployment
+------------ index on same path file .git
+------------ repo must be public 
+
+
+
+
+
 
                                       
