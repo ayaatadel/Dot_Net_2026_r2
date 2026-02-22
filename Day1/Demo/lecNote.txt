@@ -11,19 +11,17 @@
 
 
 
-
-
-
-
-
-
-
-working area              staging area                    local repo (.git)                remote repo 
-(pc)                      (filtaration)                                                    (github) 
+working area                                staging area                    local repo (.git)                remote repo 
+(pc)                                       (filtaration)                                                    (github) 
 (untracked files || Chages)         (tracked files)      
 
    index , about (update)
 
-   --------------------->
+   ---------------------------------------------->
            git add fileName || FolderName
            git add file1   file2
+           git add .
+           git add --all
+                                    ---------------------------> Version (commit) 
+                                                     git commit -m "message"
+                                                               -m: message
