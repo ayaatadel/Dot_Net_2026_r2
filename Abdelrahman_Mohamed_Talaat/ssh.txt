@@ -8,4 +8,16 @@ This Command used to create the ssh key :  ssh-keygen -t ed25519 -C "podap384@gm
 After adding public ssh key to github account we should connect the private ssh key to the private one.
 
 
+This Command is used to ensure that the connection is done 
+ssh -T git@github.com
+If the result is (Hi <username>! You've successfully authenticated, but GitHub does not provide shell access.) this means that the connection is done with github.
+
+
+
+To create the agent that will manage the connection between pc and github we should use this command: eval "$(ssh-agent -s)"
+This creates an agent to connect with the and let you do commands without the need of credintials.
+
+
+
+This Command ( ssh-add ~/.ssh/id_ed25519) used to add the private ssh key to the agent (locally).
 
