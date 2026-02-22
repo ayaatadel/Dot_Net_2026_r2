@@ -1,0 +1,3 @@
+SSH (Secure Shell) is a network protocol that provides a secure, encrypted way to access GitHub's servers from your local machine. It uses a public-private key pair to establish a digital handshake, effectively replacing the need for traditional passwords or personal access tokens during Git operations.
+
+By keeping a private key on your computer and sharing a public key with GitHub, you create a unique, cryptographically verified link between the two. This setup significantly enhances security against brute-force attacks while streamlining your workflow by automating the authentication process for every push or pull.

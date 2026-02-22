@@ -1,0 +1,17 @@
+An SSH key is a secure way to connect your computer to another computer or server without using a password.
+SSH stands for Secure Shell. It is a method used to safely communicate between two computers over the internet.
+An SSH key works using two files:
+Private Key
+	Stored on your computer
+	Must be kept secret
+	Used to prove your identity
+
+Public Key
+	Shared with services like GitHub
+	Safe to share
+	Used to verify your identity
+
+Advantages of SSH Key
+	More secure than passwords
+	Faster login (no need to type password)
+	Safer for developers working with Git
