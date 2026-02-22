@@ -1,0 +1,165 @@
+SSH (Secure Shell)
+1. What is SSH?
+
+SSH (Secure Shell) is a network protocol used to securely connect to another computer over a network. It allows users to log in remotely, transfer files, and execute commands safely.
+
+SSH encrypts communication between computers so that passwords and data cannot be stolen by attackers.
+
+Example:
+
+Connecting from your laptop to a server
+
+Managing a remote Linux machine
+
+Using GitHub via SSH
+
+2. Why SSH is Important 🔐
+
+SSH provides:
+
+1️⃣ Security
+
+Data is encrypted
+
+Protects against hackers
+
+Secure login
+
+2️⃣ Remote Access
+
+Control another computer from anywhere
+
+Run commands remotely
+
+3️⃣ File Transfer
+
+Using:
+
+SCP (Secure Copy)
+
+SFTP (Secure File Transfer Protocol)
+
+3. How SSH Works
+Step 1 — Client Requests Connection
+
+The user connects to a remote server.
+
+Example:
+
+ssh username@192.168.1.10
+Step 2 — Authentication
+
+Two main methods:
+
+1️⃣ Password Authentication
+
+User enters password.
+
+Example:
+
+Username: student
+Password: ********
+2️⃣ Key Authentication (More Secure)
+
+Uses two keys:
+
+Public Key → stored on server
+
+Private Key → stored on your computer
+
+Example files:
+
+id_rsa        (Private key)
+id_rsa.pub    (Public key)
+Step 3 — Secure Connection
+
+SSH creates an encrypted tunnel.
+
+All data becomes unreadable to attackers.
+
+4. SSH Architecture
+
+SSH has two main parts:
+
+SSH Client
+
+The computer that connects.
+
+Examples:
+
+Windows Terminal
+
+Git Bash
+
+PuTTY
+
+SSH Server
+
+The computer being connected to.
+
+Example:
+
+Linux server
+
+Cloud server
+
+5. SSH Port
+
+Default SSH port:
+
+Port 22
+
+Example connection:
+
+ssh user@server.com -p 22
+6. SSH Commands
+Connect to Server
+ssh username@hostname
+
+Example:
+
+ssh student@192.168.1.5
+Copy File to Server
+scp file.txt user@server:/home/user
+Download File
+scp user@server:file.txt .
+7. SSH vs Telnet
+Feature	SSH	Telnet
+Security	Encrypted 🔐	Not encrypted ❌
+Safe Password	Yes	No
+Port	22	23
+Recommended	Yes ✅	No ❌
+
+SSH replaced Telnet because it is much more secure.
+
+8. Advantages of SSH
+
+✔ Secure communication
+✔ Remote control
+✔ File transfer
+✔ Authentication with keys
+✔ Widely used
+
+9. Disadvantages of SSH
+
+❌ Requires configuration
+❌ Can be complex for beginners
+❌ Key management needed
+
+10. Real Uses of SSH
+
+SSH is used in:
+
+GitHub (push and pull code)
+
+Cloud servers
+
+Linux administration
+
+Networking
+
+DevOps
+
+Example:
+
+git clone git@github.com:user/project.git
