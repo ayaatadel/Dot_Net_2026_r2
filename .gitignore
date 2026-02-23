@@ -1,0 +1,4 @@
+./Assets/imgs/*.png
+./Assets/videos
+*.pdf
+./node_modules
