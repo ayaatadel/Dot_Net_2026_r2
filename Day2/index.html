@@ -12,10 +12,52 @@
     <meta name="description" content="A simple navigation bar example using HTML and CSS.">
     <link rel="stylesheet" href="style.css">
     <meta name="keywords" content="HTML, CSS, Navigation Bar, Web Development">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .header ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .header ul li {
+            margin-left: 20px;
+        }
+        .header ul li a {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const buttons = document.querySelectorAll('.products button');
+            buttons.forEach(button => {
+                button.addEventListener('click', function() {
+                    alert('Product added to cart!');
+                });
+            });
+        });
+    </script>
 </head>
 <body>
     <section class="header">
         <head>
+            <h1>teeeeeeeeeeeeeeeeeeeeeeeeeest</h1>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">My Nav</a>
@@ -82,6 +124,12 @@
             <button>Add to Cart</button>
         </card>
      </section>
+     <video src="video.mp4" controls>
+            Your browser does not support the video tag.
+           <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt natus omnis ad voluptatum quos? Quos incidunt atque natus, deleniti hic amet eaque vitae ratione fugit recusandae consequuntur obcaecati rem quia!
+           </p>
+     </video>
      <footer>
         <p>&copy; 2024 My Nav. All rights reserved.</p>
      </footer>
@@ -104,6 +152,7 @@
                     <button>Read More</button>
                 </p>
             </section>
+            <script src=""></script>
             <section>
                 <p>
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores illum nesciunt debitis? Quasi aliquid
@@ -114,6 +163,16 @@
         </section>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </section>
+    <footer>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#privacy">Privacy Policy</a></li>
+        </ul>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
     <section class="video">
         <section>
             <h3>Our Video</h3>
