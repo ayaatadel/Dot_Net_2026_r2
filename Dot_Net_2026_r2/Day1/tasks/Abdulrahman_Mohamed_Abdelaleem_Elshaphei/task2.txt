@@ -1,0 +1,8 @@
+# How to remove specific commit:
+	1- git log --oneline
+	2- git revert COMMIT_ID
+
+
+	
+# fork from your repo:
+	--------> هيغير ف النسخه اللي عندي بس مش هتكون موجودة ف الريبو الاصليه ولو عايز التعديلات ترجع ل الريبو الاصليه اعمل pull request ويوافق او يرفض
