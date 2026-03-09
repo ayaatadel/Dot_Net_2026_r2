@@ -1,0 +1,27 @@
+<!-- SSH (Secure Shell) is a protocol used to create a secure connection between your computer and another computer (like a server or GitHub) over a network.
+
+Why we use SSH with GitHub:
+
+When you do push or pull on GitHub, GitHub needs to verify that it’s really you. Instead of typing your username and password every time, we use SSH keys.
+
+SSH Key
+
+An SSH key consists of two parts:
+
+Private Key → stored on your computer (keep it secret).
+
+Public Key → uploaded to GitHub or the server.
+
+When GitHub receives a connection:
+
+It checks the public key.
+
+Confirms that the computer connecting has the matching private key.
+
+Allows you to push/pull without entering a password.
+
+In short:
+
+SSH = secure connection.
+
+SSH key = secure way to identify your computer without a password. -->
